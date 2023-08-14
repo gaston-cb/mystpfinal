@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../testing_coordic_alg.gen/sources_1/bd/cordic_test/ipshared/ec67/hdl" --include "../../../../testing_coordic_alg.gen/sources_1/bd/cordic_test/ipshared/aed8/hdl" --include "../../../../testing_coordic_alg.gen/sources_1/bd/cordic_test/ipshared/1b7e/hdl/verilog" --include "../../../../testing_coordic_alg.gen/sources_1/bd/cordic_test/ipshared/122e/hdl/verilog" --include "../../../../testing_coordic_alg.gen/sources_1/bd/cordic_test/ipshared/affe/hdl/verilog" --include "../../../../testing_coordic_alg.gen/sources_1/bd/cordic_test/ipshared/20d0/hdl/verilog" \
+"../../../bd/cordic_test/ip/cordic_test_processing_system7_0_0/sim/cordic_test_processing_system7_0_0.v" \
+"../../../bd/cordic_test/ip/cordic_test_auto_pc_0/sim/cordic_test_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

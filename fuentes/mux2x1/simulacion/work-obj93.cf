@@ -1,0 +1,7 @@
+v 4
+file . "../fuentes/mux2x1.vhd" "2265750256bc7fafc42b3fb2c534bbfe6823e7a5" "20230527194322.690":
+  entity mux2x1 at 1( 0) + 0 on 23;
+  architecture mux2x1_arq of mux2x1 at 14( 238) + 0 on 24;
+file . "../fuentes/mux2x1_tb.vhd" "0cd5b38fbafce3fbe31bebdc982c0fea36537132" "20230527194322.691":
+  entity mux2x1_tb at 1( 0) + 0 on 25;
+  architecture mux2x1_tb_arq of mux2x1_tb at 8( 106) + 0 on 26;

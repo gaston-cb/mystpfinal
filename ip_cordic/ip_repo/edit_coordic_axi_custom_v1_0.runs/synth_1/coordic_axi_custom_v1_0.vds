@@ -1,0 +1,565 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Aug 13 22:12:07 2023
+# Process ID: 372528
+# Current directory: /home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/edit_coordic_axi_custom_v1_0.runs/synth_1
+# Command line: vivado -log coordic_axi_custom_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source coordic_axi_custom_v1_0.tcl
+# Log file: /home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/edit_coordic_axi_custom_v1_0.runs/synth_1/coordic_axi_custom_v1_0.vds
+# Journal file: /home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/edit_coordic_axi_custom_v1_0.runs/synth_1/vivado.jou
+# Running On: DESKTOP-DEBIAN, OS: Linux, CPU Frequency: 3374.146 MHz, CPU Physical cores: 4, Host memory: 7827 MB
+#-----------------------------------------------------------
+source coordic_axi_custom_v1_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2066.453 ; gain = 122.992 ; free physical = 119 ; free virtual = 2813
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.1/data/ip'.
+Command: synth_design -top coordic_axi_custom_v1_0 -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 372618
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 2488.910 ; gain = 390.707 ; free physical = 130 ; free virtual = 2326
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'coordic_axi_custom_v1_0' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:49]
+WARNING: [Synth 8-5640] Port 'rst_in' is missing in component declaration [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:52]
+WARNING: [Synth 8-5640] Port 'x0' is missing in component declaration [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:52]
+WARNING: [Synth 8-5640] Port 'y0' is missing in component declaration [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:52]
+WARNING: [Synth 8-5640] Port 'z0' is missing in component declaration [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:52]
+WARNING: [Synth 8-5640] Port 'xn' is missing in component declaration [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:52]
+WARNING: [Synth 8-5640] Port 'yn' is missing in component declaration [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:52]
+WARNING: [Synth 8-5640] Port 'zn' is missing in component declaration [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:52]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'coordic_axi_custom_v1_0_S0_AXI' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5' bound to instance 'coordic_axi_custom_v1_0_S0_AXI_inst' of component 'coordic_axi_custom_v1_0_S0_AXI' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'coordic_axi_custom_v1_0_S0_AXI' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:92]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:238]
+INFO: [Synth 8-226] default block is never used [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:404]
+INFO: [Synth 8-638] synthesizing module 'coordic_recursivo' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/coordic_recursivo.vhd:21]
+	Parameter N bound to: 18 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'muxInputN' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:17]
+	Parameter widht_bus_in bound to: 18 - type: integer 
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'mux2x1' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:14]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUXNBITS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'muxInputN' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/muxInputN.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'registroPPNbits' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/registroPPNbits.vhd:18]
+	Parameter N bound to: 18 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'registroPPNbits' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/registroPPNbits.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'sumador_restador_Nbits' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/sumador_restador_Nbits.vhd:19]
+	Parameter N bound to: 18 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'sumador1bit' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/sumador1bit.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'sumador1bit' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/sumador1bit.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'sumador_restador_Nbits' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/sumador_restador_Nbits.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'barrel_shifter_arit' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:21]
+	Parameter stages bound to: 10 - type: integer 
+	Parameter widht_input bound to: 18 - type: integer 
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS_1' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:52]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Synth 8-3491] module 'mux2x1' declared at '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/mux2x1.vhd:5' bound to instance 'MUX_PORTS' of component 'mux2x1' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:42]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'barrel_shifter_arit' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'countNmodMbit' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/countNmodMbit.vhd:19]
+	Parameter N bound to: 10 - type: integer 
+	Parameter M bound to: 10 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'registroPPNbits__parameterized0' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/registroPPNbits.vhd:18]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'registroPPNbits__parameterized0' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/registroPPNbits.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'countNmodMbit' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/countNmodMbit.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'memoria_rom' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/memoria_rom.vhd:16]
+	Parameter data_width bound to: 18 - type: integer 
+	Parameter addr_length bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memoria_rom' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/memoria_rom.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'coordic_recursivo' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/coordic_recursivo.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'coordic_axi_custom_v1_0_S0_AXI' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'coordic_axi_custom_v1_0' (0#1) [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:49]
+WARNING: [Synth 8-3848] Net xN in module/entity coordic_axi_custom_v1_0_S0_AXI does not have driver. [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:23]
+WARNING: [Synth 8-3848] Net yN in module/entity coordic_axi_custom_v1_0_S0_AXI does not have driver. [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:24]
+WARNING: [Synth 8-3848] Net zN in module/entity coordic_axi_custom_v1_0_S0_AXI does not have driver. [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:25]
+WARNING: [Synth 8-7129] Port xN[17] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[16] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[15] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[14] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[13] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[12] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[11] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[10] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[9] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[8] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[7] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[6] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[5] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[4] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[3] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[2] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[1] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port xN[0] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[17] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[16] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[15] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[14] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[13] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[12] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[11] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[10] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[9] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[8] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[7] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[6] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[5] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[4] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[3] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[2] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[1] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port yN[0] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[17] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[16] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[15] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[14] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[13] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[12] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[11] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[10] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[9] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[8] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[7] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[6] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[5] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[4] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[3] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[2] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[1] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zN[0] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[17] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[16] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[15] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[14] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[13] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[12] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[11] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[10] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[9] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[8] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[7] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[6] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[5] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[4] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[3] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[2] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[1] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x0[0] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[17] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[16] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[15] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[14] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[13] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[12] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[11] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[10] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[9] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[8] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[7] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[6] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[5] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[4] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[3] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[2] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[1] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y0[0] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[17] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[16] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[15] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[14] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[13] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[12] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[11] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[10] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[9] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port z0[8] in module coordic_axi_custom_v1_0_S0_AXI is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2561.879 ; gain = 463.676 ; free physical = 136 ; free virtual = 2054
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2579.691 ; gain = 481.488 ; free physical = 134 ; free virtual = 2052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2587.695 ; gain = 489.492 ; free physical = 134 ; free virtual = 2052
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2604.609 ; gain = 506.406 ; free physical = 123 ; free virtual = 2026
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   10 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 54    
+	   2 Input      1 Bit         XORs := 54    
++---Registers : 
+	               32 Bit    Registers := 9     
+	               18 Bit    Registers := 3     
+	               10 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 8     
+	   8 Input   32 Bit        Muxes := 8     
+	   2 Input    8 Bit        Muxes := 12    
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 114 ; free virtual = 1838
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------------+-----------------------------+---------------+----------------+
+|Module Name       | RTL Object                  | Depth x Width | Implemented As | 
++------------------+-----------------------------+---------------+----------------+
+|memoria_rom       | mem[1023]                   | 1024x16       | LUT            | 
+|coordic_recursivo | COUNT_ITER/REGNPP/Q_reg_rep | 1024x16       | Block RAM      | 
++------------------+-----------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 114 ; free virtual = 1838
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance coordic_axi_custom_v1_0_S0_AXI_inst/coordic_instance/COUNT_ITER/REGNPP/Q_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:45 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 113 ; free virtual = 1838
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 113 ; free virtual = 1837
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 113 ; free virtual = 1837
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[17] with 1st driver pin 'Q[17]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[17] with 2nd driver pin 'Q[17]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[17] with 3rd driver pin 'Q[17]_i_5/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[17] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[17]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[16] with 1st driver pin 'Q[16]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[16] with 2nd driver pin 'Q[16]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[16] with 3rd driver pin 'Q[16]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[16] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[16]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[15] with 1st driver pin 'Q[15]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[15] with 2nd driver pin 'Q[15]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[15] with 3rd driver pin 'Q[15]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[15] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[15]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[14] with 1st driver pin 'Q[14]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[14] with 2nd driver pin 'Q[14]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[14] with 3rd driver pin 'Q[14]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[14] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[14]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[13] with 1st driver pin 'Q[13]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[13] with 2nd driver pin 'Q[13]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[13] with 3rd driver pin 'Q[13]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[13] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[13]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[12] with 1st driver pin 'Q[12]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[12] with 2nd driver pin 'Q[12]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[12] with 3rd driver pin 'Q[12]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[12] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[12]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[11] with 1st driver pin 'Q[11]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[11] with 2nd driver pin 'Q[11]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[11] with 3rd driver pin 'Q[11]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[11] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[11]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[10] with 1st driver pin 'Q[10]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[10] with 2nd driver pin 'Q[10]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[10] with 3rd driver pin 'Q[10]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[10] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[10]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[9] with 1st driver pin 'Q[9]_i_2__0/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[9] with 2nd driver pin 'Q[9]_i_3__0/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[9] with 3rd driver pin 'Q[9]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[9] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[9]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[8] with 1st driver pin 'Q[8]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[8] with 2nd driver pin 'Q[8]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[8] with 3rd driver pin 'Q[8]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[8] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[8]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[7] with 1st driver pin 'Q[7]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[7] with 2nd driver pin 'Q[7]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[7] with 3rd driver pin 'Q[7]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[7] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[7]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[6] with 1st driver pin 'Q[6]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[6] with 2nd driver pin 'Q[6]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[6] with 3rd driver pin 'Q[6]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[6] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[6]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[5] with 1st driver pin 'Q[5]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[5] with 2nd driver pin 'Q[5]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[5] with 3rd driver pin 'Q[5]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[5] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[5]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[4] with 1st driver pin 'Q[4]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[4] with 2nd driver pin 'Q[4]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[4] with 3rd driver pin 'Q[4]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[4] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[4]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[3] with 1st driver pin 'Q[3]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[3] with 2nd driver pin 'Q[3]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[3] with 3rd driver pin 'Q[3]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[3] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[3]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[2] with 1st driver pin 'Q[2]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[2] with 2nd driver pin 'Q[2]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[2] with 3rd driver pin 'Q[2]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[2] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[2]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[1] with 1st driver pin 'Q[1]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[1] with 2nd driver pin 'Q[1]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[1] with 3rd driver pin 'Q[1]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3[1] with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[1]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q[0]_i_2_n_0 with 1st driver pin 'Q[0]_i_2/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q[0]_i_2_n_0 with 2nd driver pin 'Q[0]_i_3/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/src/barrel_shifter_arit.vhd:9]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q[0]_i_2_n_0 with 3rd driver pin 'Q[0]_i_4/O' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0.vhd:5]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q[0]_i_2_n_0 with 4th driver pin 'coordic_axi_custom_v1_0_S0_AXI_inst/slv_reg3_reg[0]/Q' [/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/coordic_axi_custom_1_0/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd:5]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       18|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 113 ; free virtual = 1837
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 113 ; free virtual = 1837
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 113 ; free virtual = 1838
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 113 ; free virtual = 1838
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |LUT1     |     2|
+|3     |LUT2     |    21|
+|4     |LUT3     |    40|
+|5     |LUT4     |    32|
+|6     |LUT5     |    96|
+|7     |LUT6     |   191|
+|8     |MUXF7    |    32|
+|9     |RAMB18E1 |     1|
+|10    |FDRE     |   324|
+|11    |FDSE     |     4|
+|12    |IBUF     |    49|
+|13    |OBUF     |    41|
++------+---------+------+
+
+Report Instance Areas: 
++------+--------------------------------------+--------------------------------+------+
+|      |Instance                              |Module                          |Cells |
++------+--------------------------------------+--------------------------------+------+
+|1     |top                                   |                                |   834|
+|2     |  coordic_axi_custom_v1_0_S0_AXI_inst |coordic_axi_custom_v1_0_S0_AXI  |   743|
+|3     |    coordic_instance                  |coordic_recursivo               |   348|
+|4     |      COUNT_ITER                      |countNmodMbit                   |   128|
+|5     |        REGNPP                        |registroPPNbits__parameterized0 |   128|
+|6     |      REGX                            |registroPPNbits                 |    86|
+|7     |      REGY                            |registroPPNbits_0               |    89|
+|8     |      REGZ                            |registroPPNbits_1               |    45|
++------+--------------------------------------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 113 ; free virtual = 1838
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 72 critical warnings and 239 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 2795.898 ; gain = 697.695 ; free physical = 112 ; free virtual = 1837
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:54 . Memory (MB): peak = 2795.906 ; gain = 697.695 ; free physical = 112 ; free virtual = 1837
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2795.906 ; gain = 0.000 ; free physical = 380 ; free virtual = 2105
+INFO: [Netlist 29-17] Analyzing 33 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2864.723 ; gain = 0.000 ; free physical = 342 ; free virtual = 2078
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 7b6e6b6f
+INFO: [Common 17-83] Releasing license: Synthesis
+144 Infos, 111 Warnings, 72 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 2864.723 ; gain = 773.457 ; free physical = 342 ; free virtual = 2078
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2438.236; main = 2159.114; forked = 364.841
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3752.488; main = 2864.723; forked = 956.590
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint '/home/gvaldez/microarquitecturas_softcore/trabajo_final_mys/ip_cordic/ip_repo/edit_coordic_axi_custom_v1_0.runs/synth_1/coordic_axi_custom_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file coordic_axi_custom_v1_0_utilization_synth.rpt -pb coordic_axi_custom_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 13 22:13:37 2023...

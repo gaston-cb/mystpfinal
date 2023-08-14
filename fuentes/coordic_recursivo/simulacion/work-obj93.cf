@@ -1,0 +1,31 @@
+v 4
+file . "../fuentes/coordic_recursivo_tb.vhd" "29d145379867dcbf09d50940fc48c6749f4fa7ca" "20230621032516.143":
+  entity coordic_recursivo_tb at 1( 0) + 0 on 269;
+  architecture sim of coordic_recursivo_tb at 12( 172) + 0 on 270;
+file . "../fuentes/coordic_recursivo.vhd" "a3f2bfdd0721bb392cde545af670d9196161b530" "20230621032516.140":
+  entity coordic_recursivo at 1( 0) + 0 on 267;
+  architecture rtl of coordic_recursivo at 21( 543) + 0 on 268;
+file . "../../barrel_shifter_arit/fuentes/barrel_shifter_arit.vhd" "393371c893a29f7805b34e29163765856f2f41b5" "20230621032516.137":
+  entity barrel_shifter_arit at 5( 124) + 0 on 265;
+  architecture barrel_shifer_arit_arq of barrel_shifter_arit at 21( 520) + 0 on 266;
+file . "../../memoria_rom/fuentes/memoria_rom.vhd" "71e43f08434904e20867930f320996cdc2b56575" "20230621032516.135":
+  entity memoria_rom at 1( 0) + 0 on 263;
+  architecture memoria_rom_arq of memoria_rom at 16( 346) + 0 on 264;
+file . "../../muxInputN/fuentes/muxInputN.vhd" "1ca54da73aee002bddd425334a415e0da627db66" "20230621032516.133":
+  entity muxinputn at 1( 0) + 0 on 261;
+  architecture muxinputn_arq of muxinputn at 17( 389) + 0 on 262;
+file . "../../mux2x1/fuentes/mux2x1.vhd" "2265750256bc7fafc42b3fb2c534bbfe6823e7a5" "20230621032516.131":
+  entity mux2x1 at 1( 0) + 0 on 259;
+  architecture mux2x1_arq of mux2x1 at 14( 238) + 0 on 260;
+file . "../../countNmodMbit/fuentes/countNmodMbit.vhd" "9a0d264954ebf1d257a29a041b02dea0d601bd43" "20230621032516.130":
+  entity countnmodmbit at 1( 0) + 0 on 257;
+  architecture countnmodmbit_arq of countnmodmbit at 19( 406) + 0 on 258;
+file . "../../registroN/fuentes/registroPPNbits.vhd" "6fab9b4db468846f5fee5e3f560aa5eaa6265cbe" "20230621032516.128":
+  entity registroppnbits at 1( 0) + 0 on 255;
+  architecture registron_arq of registroppnbits at 18( 364) + 0 on 256;
+file . "../../sumRestNbits/fuentes/sumador_restador_Nbits.vhd" "b344081c5fc66a6f37f1e0e817a947d5e68dff9d" "20230621032516.126":
+  entity sumador_restador_nbits at 1( 0) + 0 on 253;
+  architecture sumador_restador_nbits_arq of sumador_restador_nbits at 19( 411) + 0 on 254;
+file . "../../sum1bit/fuentes/sumador1bit.vhd" "9fe49718cc55f80820ffae69e87fa4580a61f510" "20230621032516.125":
+  entity sumador1bit at 1( 0) + 0 on 251;
+  architecture sumador1bit of sumador1bit at 15( 279) + 0 on 252;

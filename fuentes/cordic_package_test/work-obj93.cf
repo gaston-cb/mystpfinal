@@ -1,0 +1,7 @@
+v 4
+file . "packageCoord.vhd" "052eee6103ee9c38535ea18e9f2b646e480d3959" "20230620232232.407":
+  package cordicpack at 1( 0) + 0 on 15 body;
+  package body cordicpack at 12( 234) + 0 on 16;
+file . "cordic_tb.vhd" "452c6d039ccf4fabbd3708ad4fff24c584670af2" "20230620232232.443":
+  entity cordic_tb at 1( 0) + 0 on 17;
+  architecture testcordicarch of cordic_tb at 14( 128) + 0 on 18;

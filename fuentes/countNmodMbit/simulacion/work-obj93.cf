@@ -1,0 +1,10 @@
+v 4
+file . "../fuentes/countNmodMbit_tb.vhd" "353b883b5cec8b923bc7c5863b6406f35f19b880" "20230616204434.113":
+  entity countnmodmbit_tb at 1( 0) + 0 on 15;
+  architecture countnmodmbit_tb of countnmodmbit_tb at 9( 121) + 0 on 16;
+file . "../fuentes/countNmodMbit.vhd" "9a0d264954ebf1d257a29a041b02dea0d601bd43" "20230616204434.112":
+  entity countnmodmbit at 1( 0) + 0 on 13;
+  architecture countnmodmbit_arq of countnmodmbit at 19( 406) + 0 on 14;
+file . "../../registroN/fuentes/registroPPNbits.vhd" "6fab9b4db468846f5fee5e3f560aa5eaa6265cbe" "20230616204434.111":
+  entity registroppnbits at 1( 0) + 0 on 11;
+  architecture registron_arq of registroppnbits at 18( 364) + 0 on 12;

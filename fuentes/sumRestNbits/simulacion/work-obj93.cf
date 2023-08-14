@@ -1,0 +1,10 @@
+v 4
+file . "../fuentes/sumador_restador_Nbits_tb.vhd" "91de2c76f5b6a3b4a33a6918e9962563ae161471" "20230621000820.211":
+  entity sumador_restador_nbits_tb at 1( 0) + 0 on 39;
+  architecture sumador_restador_nbits_tb_arq of sumador_restador_nbits_tb at 8( 138) + 0 on 40;
+file . "../fuentes/sumador_restador_Nbits.vhd" "b344081c5fc66a6f37f1e0e817a947d5e68dff9d" "20230621000820.193":
+  entity sumador_restador_nbits at 1( 0) + 0 on 37;
+  architecture sumador_restador_nbits_arq of sumador_restador_nbits at 19( 411) + 0 on 38;
+file . "../../sum1bit/fuentes/sumador1bit.vhd" "9fe49718cc55f80820ffae69e87fa4580a61f510" "20230621000820.190":
+  entity sumador1bit at 1( 0) + 0 on 35;
+  architecture sumador1bit of sumador1bit at 15( 279) + 0 on 36;

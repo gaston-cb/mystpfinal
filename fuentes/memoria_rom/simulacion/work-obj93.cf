@@ -1,0 +1,7 @@
+v 4
+file . "../fuentes/memoria_rom.vhd" "770d4d921283288aa60357da37340c097700a842" "20230620021940.691":
+  entity memoria_rom at 1( 0) + 0 on 15;
+  architecture memoria_rom_arq of memoria_rom at 17( 379) + 0 on 16;
+file . "../fuentes/memoria_rom_tb.vhd" "f87a4e8f1aeabc356dcb2cb5a740f357ec423ce9" "20230620021940.693":
+  entity memoria_rom_tb at 1( 0) + 0 on 17;
+  architecture memoria_rom_tb_arq of memoria_rom_tb at 8( 116) + 0 on 18;

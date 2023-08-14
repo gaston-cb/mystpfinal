@@ -1,0 +1,19 @@
+vhdl xil_defaultlib  \
+"../../../bd/cordic_test/ipshared/bdde/hdl/coordic_axi_custom_v1_0_S0_AXI.vhd" \
+"../../../bd/cordic_test/ipshared/bdde/hdl/coordic_axi_custom_v1_0.vhd" \
+"../../../bd/cordic_test/ipshared/fuentes/barrel_shifter_arit/fuentes/barrel_shifter_arit.vhd" \
+"../../../bd/cordic_test/ipshared/fuentes/muxInputN/fuentes/muxInputN.vhd" \
+"../../../bd/cordic_test/ipshared/fuentes/registroN/fuentes/registroPPNbits.vhd" \
+"../../../bd/cordic_test/ipshared/fuentes/sum1bit/fuentes/sumador1bit.vhd" \
+"../../../bd/cordic_test/ipshared/fuentes/sumRestNbits/fuentes/sumador_restador_Nbits.vhd" \
+"../../../bd/cordic_test/ipshared/fuentes/countNmodMbit/fuentes/countNmodMbit.vhd" \
+"../../../bd/cordic_test/ipshared/fuentes/memoria_rom/fuentes/memoria_rom.vhd" \
+"../../../bd/cordic_test/ipshared/fuentes/coordic_recursivo/fuentes/coordic_recursivo.vhd" \
+"../../../bd/cordic_test/ipshared/fuentes/mux2x1/fuentes/mux2x1.vhd" \
+"../../../bd/cordic_test/ip/cordic_test_coordic_axi_custom_0_0/sim/cordic_test_coordic_axi_custom_0_0.vhd" \
+"../../../bd/cordic_test/ip/cordic_test_rst_ps7_0_100M_0/sim/cordic_test_rst_ps7_0_100M_0.vhd" \
+"../../../bd/cordic_test/ip/cordic_test_ila_0_0/sim/cordic_test_ila_0_0.vhd" \
+"../../../bd/cordic_test/sim/cordic_test.vhd" \
+
+# Do not sort compile order
+nosort

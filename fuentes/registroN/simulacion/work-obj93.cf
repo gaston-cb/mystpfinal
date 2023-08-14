@@ -1,0 +1,7 @@
+v 4
+file . "../fuentes/registroPPNbits_tb.vhd" "6f51f1006557a8af409526b2c41eb692ea866738" "20230526202959.784":
+  entity registroppnbits_tb at 1( 0) + 0 on 13;
+  architecture registroppnbits_tb_arq of registroppnbits_tb at 8( 124) + 0 on 14;
+file . "../fuentes/registroPPNbits.vhd" "beccb60a7c51f3f48de65c1f5df341c23b45c01a" "20230526202959.781":
+  entity registroppnbits at 1( 0) + 0 on 11;
+  architecture registron_arq of registroppnbits at 18( 364) + 0 on 12;

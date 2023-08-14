@@ -1,0 +1,63 @@
+$date
+  Sat May 27 16:43:22 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module mux2x1_tb $end
+$var reg 1 ! ain_tb $end
+$var reg 1 " bin_tb $end
+$var reg 1 # sel $end
+$var reg 1 $ salida $end
+$scope module dut $end
+$var reg 1 % a_in $end
+$var reg 1 & b_in $end
+$var reg 1 ' sel $end
+$var reg 1 ( sal_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+#20000000
+1!
+1$
+1%
+1(
+#30000000
+1#
+0$
+1'
+0(
+#120000000
+1"
+0#
+1$
+1&
+0'
+1(
+#250000000
+0!
+0$
+0%
+0(
+#325000000
+0"
+0&
+#345000000

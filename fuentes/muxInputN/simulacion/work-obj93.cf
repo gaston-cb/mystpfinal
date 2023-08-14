@@ -1,0 +1,10 @@
+v 4
+file . "../../mux2x1/fuentes/mux2x1.vhd" "2265750256bc7fafc42b3fb2c534bbfe6823e7a5" "20230621000051.683":
+  entity mux2x1 at 1( 0) + 0 on 29;
+  architecture mux2x1_arq of mux2x1 at 14( 238) + 0 on 30;
+file . "../fuentes/muxInputN.vhd" "1ca54da73aee002bddd425334a415e0da627db66" "20230621000051.685":
+  entity muxinputn at 1( 0) + 0 on 31;
+  architecture muxinputn_arq of muxinputn at 17( 389) + 0 on 32;
+file . "../fuentes/muxInputN_tb.vhd" "d2b034340730d98f3e6e27dffe78ab7c4133825f" "20230621000051.697":
+  entity muxinputn_tb at 1( 0) + 0 on 33;
+  architecture muxinputn_tb of muxinputn_tb at 8( 112) + 0 on 34;
